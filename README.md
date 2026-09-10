@@ -6,7 +6,7 @@ A Power BI dashboard for analyzing sales performance across regions, customer se
 
 ## Overview
 
-This portfolio project demonstrates the design and development of an interactive sales analytics dashboard in Power BI. The dashboard consolidates sales data into a single, filterable view with KPI cards and multiple visualizations to support analysis across different dimensions of the business.
+This portfolio project demonstrates the design and development of an interactive sales analytics dashboard in Power BI. The dashboard consolidates sales data into a single, filterable view with KPI cards and multiple visualizations for comprehensive sales analysis.
 
 The dashboard provides visibility into:
 - Sales trends over time (monthly)
@@ -155,19 +155,19 @@ Based on the dashboard's analytical capabilities, businesses can:
 ```
 sales-performance-powerbi/
 ├── README.md
+├── Sales_Performance_Dashboard.pbix
+├── Sales dashboard.png
 ├── dashboard/
-│   └── Sales_Performance_Dashboard.pbix
+│   └── README.md
 ├── screenshots/
-│   └── sales-performance-dashboard.png
-└── documentation/
-    └── data-model.png
+│   └── README.md
 ```
 
 ---
 
 ## How to Use
 
-1. **Download** the `Sales_Performance_Dashboard.pbix` file from the `dashboard/` folder
+1. **Download** the `Sales_Performance_Dashboard.pbix` file from the repository root
 2. **Open** the file in Power BI Desktop
 3. **Interact with Slicers**: Use the Region, Year, Segment, and Category slicers to filter the data
 4. **View KPIs**: Monitor the key performance indicators at the top of the dashboard
